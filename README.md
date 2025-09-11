@@ -1,16 +1,25 @@
-## Hi there 👋
+```js
+const fhyrox = {
+  name: "Fhyrox",
+  age: 15,
+  location: "Istanbul, Turkey",
+  role: "Backend Developer",
+  stack: [
+    "Node.js", "JavaScript", "TypeScript",
+    "React", "Next.js", "Express",
+  ],
+  projects: ["Arox", "Fiosoft"],
 
-<!--
-**fhyrox/fhyrox** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  contact: {
+    github: "github.com/fhyrox",
+    email: "fhyroxx@gmail.com",
+  }
+};
 
-Here are some ideas to get you started:
+function sayHi(dev) {
+  console.log(`👋 Hi, I'm ${dev.name}, a ${dev.role} based in ${dev.location}.`);
+  console.log(`💻 Currently working on: ${dev.projects.join(" & ")}`);
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+sayHi(fhyrox);
+```
