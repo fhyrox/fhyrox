@@ -8,7 +8,7 @@ const fhyrox = {
     "Node.js", "JavaScript", "TypeScript",
     "React", "Next.js", "Express",
   ],
-  projects: ["Arox", "Fiosoft"],
+  projects: ["Arktik"],
 
   contact: {
     github: "github.com/fhyrox",
